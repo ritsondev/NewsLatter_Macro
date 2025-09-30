@@ -53,6 +53,7 @@ body{
 
 header{
 
+    overflow: hidden;
     display: flex;
     padding: 3% 5%;
     align-items: center;
@@ -80,8 +81,9 @@ a{
 
 main{
 
-    display: flex;
     padding: 5%;
+    display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: space-between;
 
@@ -196,9 +198,10 @@ form input{
 
 form button{
 
-    top: 20px;
+    top: 7px;
     width: 120px;
     height: 45px;
+    border: none;
     cursor: pointer;
     position: relative;
     border-radius: 16px;
@@ -352,7 +355,7 @@ footer ul a:hover{
     
     .information{
 
-        max-width: 350px;
+        max-width: 300px;
 
     }
  
